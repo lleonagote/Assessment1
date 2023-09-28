@@ -1,0 +1,20 @@
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1,6G  2,4M  1,6G   1% /run
+/dev/nvme0n1p5  105G   16G   85G  16% /
+tmpfs           7,6G     0  7,6G   0% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+/dev/nvme0n1p1   96M   35M   62M  37% /boot/efi
+tmpfs           1,6G  128K  1,6G   1% /run/user/1000
+
+Command: df -h
+
+Explanation: This command displays disk space usage separeted on collumns with information
+
+Differences between df and df -h: Without the -h option, df displays sizes in bytes, and when you include -h, the command converts the sizes into a more friendly format. Kilobytes (KB), Megabytes (MB), Gigabytes (GB), or Terabytes (TB), depending on the size
+
+Filesystem: the filesystem o disk partition name
+Size: The total size of the filesystem or disk partition
+Avail: Available space on filesystem or disk partition
+Use%: Percentage of used space of the filesystem or disk partition
+Mounted on: The information of where a particular filesystem or disk partition is attached or "mounted" withing the directory. 
+

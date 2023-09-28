@@ -1,0 +1,18 @@
+               total        used        free      shared  buff/cache   available
+Mem:        15756704     2543716     8535644     1249280     4677344    11569508
+Swap:        2097148           0     2097148
+
+Command: free
+Explanation: Displays memory usage
+
+ 17:32:04 up 2 days, 23:49,  1 user,  load average: 0,05, 0,17, 0,18
+ 
+ Command: uptime
+ Explanation: shows the system uptime, how long is been runing and the load average
+ 
+    PID TTY          TIME CMD
+  25358 pts/0    00:00:00 bash
+  27636 pts/0    00:00:00 ps
+  
+  Command:  ps
+  Explanation: already explained on file 07ListProcesses

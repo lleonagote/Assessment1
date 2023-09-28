@@ -1,0 +1,10 @@
+Command: sudo apt-get install vim
+Explanation: this command does install the vim text editor on the pc
+
+Command to create a file: touch <filename>  OR vim <filename> (if the file does not exist)
+Command to open a file: vim <filename>
+Inside Vim:
+i to intert text
+Esc to exit insert mode
+:w to save
+:q to quit

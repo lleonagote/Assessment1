@@ -1,0 +1,6 @@
+man: displays the manual for a command. Example: man mkdir shows the manual for the mkdir command.
+mkdir: creates a new directory. Example: mkdir Prueba creates a directory called Prueba.
+rm: removes files or directories. Example: rm app.css will remove the file app.css of the computer. Note: there is no undo for this command or recycling bin to retrive from.
+touch: creates an empty file. Example: touch ../example.txt creaes a file in the directory one level above the current working directory.
+mv: moves or renames files or directories. Example: If i’m on  directory called Moving/ and I have two folders nothere/ and here/, and i create a cat.txt file on nothere/ but i want to move it to the here/ directory,  I can do mv nothere/cat.txt here/ 
+cp: copies files or directories. Example: to create a copy of example.txt called explanation.txt, we could run cp example.txt explanation.txt, to copy multipel files into another directory we can use the cp <file1> <file2> <destination> format. 

@@ -1,0 +1,21 @@
+total 16
+-rw-rw-r-- 1 temporal temporal 1806 set 28 16:01 01ip.log
+-rw-rw-r-- 1 temporal temporal  309 set 28 16:02 02InstallVim.txt
+-rw-rw-r-- 1 temporal temporal 1054 set 28 16:20 03Diskspace.txt
+-rw-rw-r-- 1 temporal temporal  327 set 28 16:25 04Filesystem
+-rw-rw-r-- 1 temporal temporal    0 set 28 16:27 05Listfiles
+
+Command: ls -l
+Explanation: displays detailed information about files and directories, includin permissions, ownership and more. 
+
+
+..
+01ip.log
+02InstallVim.txt
+03Diskspace.txt
+04Filesystem
+05Listfiles
+.
+
+Command: ls -rta
+Explanation: list files and directories by modification time in reverse order

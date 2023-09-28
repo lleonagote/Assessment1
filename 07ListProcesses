@@ -1,0 +1,11 @@
+    PID TTY          TIME CMD
+  25358 pts/0    00:00:00 bash
+  27053 pts/0    00:00:00 ps
+  
+  Command: ps
+  Explanation: Show the processes associated with the current terminal session
+  
+  Other command: ps aux
+  Explanation: Show a list of all processes running on the system 
+  
+  Process ID: is a unique identifier for each running process
