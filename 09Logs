@@ -1,6 +1,6 @@
 The logs are on the /var/log directory
-To read the last 10 lines: tail -n 10 <filename> 
+To read the last 10 lines: tail <filename> 
 To read the first 10 lines:head <filename>
 Less: the less <filename> command displays the file like the man command, in pages with controls to scroll and move
 
-
+the -n <number> can be added to the tail or head commands to se a specific number of lines, but by default those two commands show 10 lines. 
